@@ -19,6 +19,7 @@ package com.haier.tinkertest.util;
 import android.content.Context;
 import android.content.Intent;
 
+import com.haier.tinkertest.reporter.SampleTinkerReport;
 import com.tencent.tinker.lib.service.TinkerPatchService;
 import com.tencent.tinker.lib.tinker.Tinker;
 import com.tencent.tinker.lib.tinker.TinkerInstaller;
@@ -32,7 +33,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import tinker.sample.android.reporter.SampleTinkerReport;
 
 /**
  * optional
